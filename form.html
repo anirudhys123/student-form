@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h1> <I>STUDENT DETAILS</h1></body></I>
+
+    <form name = "student" action = "send.php" method = "post">
+
+<table width = 500 height = 200  border ="1" cell spacing ="2" cell padding ="2">
+   <tr>
+    <td> Student Application</td>
+    <td> </td>
+   </tr>
+   <tr>
+    <td> First name</td>
+    <td><input type = "text" name ="fname" max length ="50" /> </td>
+   </tr>
+   <tr>
+    <td>Last name</td>
+    <td><input type = "text" name ="lname" max length ="50" /> </td>
+   </tr>
+   <tr>
+    <td> University </td>
+    <td><input type = "text" name ="University" max length ="50" /> </td>
+   </tr>
+   <tr>
+    <td>branch</td>
+    <td> 
+        <select name = "branch">
+            <option value ="CSE"> CSE</option>
+            <option value = " ECE">ECE</option>
+            <option value ="EEE"> EEE</option>
+            <option value = "ME"> MECH</option>
+
+        </select>
+    </td>
+   </tr>
+   <tr>
+    <td> Year of pass out</td>
+    <td> 
+        <select name = "year">
+            <option value ="23"> 2023</option>
+            <option value = " 24">2024</option>
+            <option value ="25"> 2025</option>
+         
+           
+        </select>
+    </td>
+   </tr>
+   <tr>
+    <td> Intrests</td>
+    <td> 
+        <input type="checkbox" name ="ft" /> coding
+        <input type="checkbox" name ="pt" /> core job
+        <input type="checkbox" name ="ct" /> GATE
+    </td>
+   </tr>
+   <tr>
+    <td>Sports</td>
+    <td>
+        <input type = "radio" name = "estatus" value ="cricket" /> cricket
+        <input type = "radio" name = "estatus" value ="badminton" /> badminton
+        <input type = "radio" name = "estatus" value ="chess" /> chess
+     </td>
+   </tr>
+   <tr>
+    <td>Additional comments</td>
+    <td>
+        <textarea name = "comments" cols ="45" rows ="5"></textarea>
+         </td>
+   </tr>
+   <tr>
+    <td></td>
+    <td> 
+        <input type ="submit" name = "submit" value ="Submit" />
+        <input type = "reset" name = "reset" value = "Reset" /> 
+    </td>
+   </tr>
+
+
+
+</table>
+</form>
+
+</body>
+    
